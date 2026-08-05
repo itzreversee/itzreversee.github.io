@@ -54,6 +54,8 @@ nav {
   justify-items: stretch;
   align-items: center;
 
+  z-index: 8;
+
   margin: 0;
   padding: var(--nav-bar-top-padding) 0 var(--nav-bar-top-padding) 0;
     
