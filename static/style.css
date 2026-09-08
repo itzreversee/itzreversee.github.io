@@ -275,6 +275,7 @@ nav {
 .faded {
   opacity: 0.75;
   transition: 0.25s ease;
+  -webkit-max-logical-height: 1.25rem;
 
   &:hover {
     opacity: 1;
@@ -308,9 +309,6 @@ footer {
       margin: 0.50rem;
       font-weight: 400;
     }
-  }
-
-  @media screen and (max-width: 40rem) {
   }
 }
 
